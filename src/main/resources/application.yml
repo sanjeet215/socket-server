@@ -1,0 +1,11 @@
+server:
+  port: 8084
+  
+logging:
+  level:
+    com.asiczen: TRACE
+    org.springframework.amqp: ERROR     
+    
+    
+spring:  redis:    host: 45.114.48.150
+    port: 8084    
